@@ -1,0 +1,35 @@
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+body{
+    background-color: #3C5B6F;
+}
+.Report{
+    display: grid;
+    place-items: center;
+    border: 1px solid #fff;
+    margin: 50px 15px 15px 15px ;
+    font-family: "Josefin Sans", sans-serif;
+    box-shadow: 2px 5px 4px 0px #fff;}
+.Report h1{
+    color: #fff;
+}
+.Report h2{
+    color: #DFD0B8;
+}
+.Report textarea{
+    background-color: #fff;
+}
+select{
+    padding: 10px;
+    width: 50%;
+    color: #3C5B6F;
+}
+button{
+    color: #3C5B6F;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+}

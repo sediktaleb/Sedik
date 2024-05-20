@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript"
+         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+ </script>
+ <script type="text/javascript">
+    (function(){
+       emailjs.init({
+         publicKey: "5rQqLEnZRR3g3SbRY",
+       });
+    })();
+ </script>
+</head>
+<body>
+    <div class="Report">
+        <h1>The hidden Message</h1>
+        <h2>The Person :</h2>
+        <select name="Names" id="Names">
+            <option value="Sedik">Sedik</option>
+            <option value="Fwaz">Fwaz</option>
+            <option value="AbdJalil">AbdJalil</option>
+            <option value="Iyad">Iyad</option>
+            <option value="Aryam">Aryam</option>
+            <option value="Douaa">Douaa</option>
+            <option value="Malak">Malak</option>
+            <option value="Sirine">Sirine</option>
+
+        </select>
+        <h2>Your Message :</h2>
+        <textarea name="" id="Message" cols="20" rows="10"></textarea>
+        <button onclick="Send()">Send</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
