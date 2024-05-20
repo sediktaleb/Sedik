@@ -18,7 +18,8 @@ function Send(){
 		alert("لم يتم التحصل على الايميل")
 	}
 	if(Person == "Iyad"){
-		alert("لم يتم التحصل على الايميل")
+		sendEmail("khemissigracha@gmail.com",Message)
+	
 	}
 	if(Person == "Aryam"){
 		alert("لم يتم التحصل على الايميل")
