@@ -28,7 +28,7 @@ function Send(){
 		alert("لم يتم التحصل على الايميل")
 	}
 	if(Person == "Malak"){
-		alert("لم يتم التحصل على الايميل")
+		sendEmail("dk.karima.2020@gmail.com",Message)
 	}
 }
 
