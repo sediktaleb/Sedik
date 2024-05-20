@@ -4,12 +4,15 @@ function Send(){
 	var Message = document.getElementById("Message").value;
 	if(Person == "Sedik"){
 		sendEmail("sedikalgriadz@gmail.com",Message)
+
 	}
 	if(Person == "Sirine"){
 		sendEmail("ararsirine2007@gmail.com",Message)
+
 	}
 	if(Person == "Fwaz"){
-		alert("لم يتم التحصل على الايميل")
+		sendEmail("zdiclassg@gmail.com",Message)
+
 	}
 	if(Person == "AbdJalil"){
 		alert("لم يتم التحصل على الايميل")
