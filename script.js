@@ -53,8 +53,6 @@ function sendEmail(email,meesage){
 function SendRandom(){
 	var Random = Math.floor(Math.random() * 5)
 	var Message = document.getElementById("MessageRandom").value;
-
-	alert(Random);
 	if(Random == 0){
 		sendEmail("sedikalgriadz@gmail.com",Message)
 	}
