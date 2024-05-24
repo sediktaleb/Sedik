@@ -50,3 +50,37 @@ function sendEmail(email,meesage){
       
     
 )};
+function SendRandom(){
+	var Random = Math.floor(Math.random() * 5)
+	var Message = document.getElementById("MessageRandom").value;
+
+	alert(Random);
+	if(Random == 0){
+		sendEmail("sedikalgriadz@gmail.com",Message)
+	}
+	if(Random == 1){
+		sendEmail("zdiclassg@gmail.com",Message)
+		sendEmail("sedikalgriadz@gmail.com",Message)
+
+	}
+	if(Random == 2){
+		sendEmail("dk.karima.2020@gmail.com",Message)
+		sendEmail("sedikalgriadz@gmail.com",Message)
+
+	}
+	if(Random == 3){
+		sendEmail("khemissigracha@gmail.com",Message)
+		sendEmail("sedikalgriadz@gmail.com",Message)
+
+	}
+	if(Random == 4){
+		sendEmail("ararsirine2007@gmail.com",Message)
+		sendEmail("sedikalgriadz@gmail.com",Message)
+
+	}
+	if(Random == 5){
+		sendEmail("Dodosinyorita3@gmail.com",Message)
+		sendEmail("sedikalgriadz@gmail.com",Message)
+
+	}
+};
