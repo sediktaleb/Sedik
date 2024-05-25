@@ -22,7 +22,9 @@ function Send(){
 
 	}
 	if(Person == "AbdJalil"){
-		alert("لم يتم التحصل على الايميل")
+		sendEmail("sajalil217@gmail.com",Message)
+
+
 	}
 	if(Person == "Iyad"){
 		sendEmail("khemissigracha@gmail.com",Message)
