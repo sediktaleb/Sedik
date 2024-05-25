@@ -1,9 +1,13 @@
+document.getElementById("loader").style.display="none";
+document.getElementById("loader1").style.display="none";
 
 function Send(){
 	var Person = document.getElementById("Names").value;
 	var Message = document.getElementById("Message").value;
+	document.getElementById("loader").style.display="inline";
 	if(Person == "Sedik"){
 		sendEmail("sedikalgriadz@gmail.com",Message)
+
 	}
 	if(Person == "Sirine"){
 		sendEmail("ararsirine2007@gmail.com",Message)
@@ -28,10 +32,11 @@ function Send(){
 		alert("لم يتم التحصل على الايميل")
 	}
 	if(Person == "Douaa"){
-		sendEmail("Dodosinyorita3@gmail.com",Message)
+		alert("لم يتم التحصل على الايميل")
 	}
 	if(Person == "Malak"){
 		sendEmail("dk.karima.2020@gmail.com",Message)
+		
 	}
 }
 
@@ -47,21 +52,25 @@ function sendEmail(email,meesage){
     emailjs.send(serviceID,templateID,parmas).then(function(red){
 
         alert("الرسالة وصـلت");
+		document.getElementById("loader").style.display="none";
+		document.getElementById("loader1").style.display="none";
 
     }
             
       
     
 )};
+
 function SendRandom(){
-	var Random = Math.floor(Math.random() * 6)
+	var Random = Math.floor(Math.random() * 5)
 	var Message = document.getElementById("MessageRandom").value;
+	document.getElementById("loader1").style.display="none";
+
 	if(Random == 0){
 		sendEmail("sedikalgriadz@gmail.com",Message)
 	}
 	if(Random == 1){
 		sendEmail("zdiclassg@gmail.com",Message)
-		sendEmail("sedikalgriadz@gmail.com",Message)
 
 	}
 	if(Random == 2){
