@@ -62,7 +62,7 @@ function sendEmail(email,meesage){
 )};
 
 function SendRandom(){
-	var Random = Math.floor(Math.random() * 5)
+	var Random = Math.floor(Math.random() * 4)
 	var Message = document.getElementById("MessageRandom").value;
 	document.getElementById("loader1").style.display="block";
 
@@ -79,10 +79,6 @@ function SendRandom(){
 	}
 	if(Random ==3){
 		sendEmail("Dodosinyorita3@gmail.com",Message)
-
-	}
-	if(Random == 4){
-		sendEmail("bousbaamin8@gmail.com",Message)
 
 	}
 };
