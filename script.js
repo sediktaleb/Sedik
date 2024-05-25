@@ -32,7 +32,7 @@ function Send(){
 		alert("لم يتم التحصل على الايميل")
 	}
 	if(Person == "Douaa"){
-		alert("لم يتم التحصل على الايميل")
+		sendEmail("Dodosinyorita3@gmail.com",Message)
 	}
 	if(Person == "Malak"){
 		sendEmail("dk.karima.2020@gmail.com",Message)
