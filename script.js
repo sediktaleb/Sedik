@@ -74,22 +74,14 @@ function SendRandom(){
 
 	}
 	if(Random == 2){
-		sendEmail("dk.karima.2020@gmail.com",Message)
-
-	}
-	if(Random == 3){
-		sendEmail("khemissigracha@gmail.com",Message)
-
-	}
-	if(Random == 4){
 		sendEmail("ararsirine2007@gmail.com",Message)
 
 	}
-	if(Random == 5){
+	if(Random ==3){
 		sendEmail("Dodosinyorita3@gmail.com",Message)
 
 	}
-	if(Random == 6){
+	if(Random == 4){
 		sendEmail("bousbaamin8@gmail.com",Message)
 
 	}
