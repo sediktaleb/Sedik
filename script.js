@@ -4,10 +4,13 @@ function Send(){
 	var Message = document.getElementById("Message").value;
 	if(Person == "Sedik"){
 		sendEmail("sedikalgriadz@gmail.com",Message)
-
 	}
 	if(Person == "Sirine"){
 		sendEmail("ararsirine2007@gmail.com",Message)
+
+	}
+	if(Person == "Charaf"){
+		sendEmail("bousbaamin8@gmail.com",Message)
 
 	}
 	if(Person == "Fwaz"){
@@ -51,7 +54,7 @@ function sendEmail(email,meesage){
     
 )};
 function SendRandom(){
-	var Random = Math.floor(Math.random() * 5)
+	var Random = Math.floor(Math.random() * 6)
 	var Message = document.getElementById("MessageRandom").value;
 	if(Random == 0){
 		sendEmail("sedikalgriadz@gmail.com",Message)
@@ -75,6 +78,10 @@ function SendRandom(){
 	}
 	if(Random == 5){
 		sendEmail("Dodosinyorita3@gmail.com",Message)
+
+	}
+	if(Random == 6){
+		sendEmail("bousbaamin8@gmail.com",Message)
 
 	}
 };
