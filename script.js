@@ -56,34 +56,47 @@ function sendEmail(email,meesage){
         alert("الرسالة وصـلت");
 		document.getElementById("loader").style.display="none";
 		document.getElementById("loader1").style.display="none";
-
+		setTimeout(CollDown1, 3000)
     }
             
       
     
 )};
+let CollDown = 1;
 
+function CollDown1(){
+	let CollDown = 1;
+};
 function SendRandom(){
-	var Random = Math.floor(Math.random() * 4)
-	var Message = document.getElementById("MessageRandom").value;
-	document.getElementById("loader1").style.display="block";
+	if(CollDown == 1){
+		CollDown = 0;
+		var Random = Math.floor(Math.random() * 4)
+		var Message = document.getElementById("MessageRandom").value;
+		document.getElementById("loader1").style.display="block";
+	
+		if(Random == 0){
+			sendEmail("sedikalgriadz@gmail.com",Message)
+			sendEmail("sedikalgriadz@gmail.com",Message)
 
-	if(Random == 0){
-		sendEmail("sedikalgriadz@gmail.com",Message)
-	}
-	if(Random == 1){
-		sendEmail("khemissigracha@gmail.com",Message)
-		sendEmail("sedikalgriadz@gmail.com",Message)
+		}
+		if(Random == 1){
+			sendEmail("khemissigracha@gmail.com",Message)
+			sendEmail("sedikalgriadz@gmail.com",Message)
+	
+		}
+		if(Random == 2){
+			sendEmail("bousbaamin8@gmail.com",Message)
+			sendEmail("sedikalgriadz@gmail.com",Message)
+	
+		}
+		if(Random ==3){
+			sendEmail("Dodosinyorita3@gmail.com",Message)
+			sendEmail("sedikalgriadz@gmail.com",Message)
+	
+		}
 
+	}else{
+		alert("CollDown . . .");
 	}
-	if(Random == 2){
-		sendEmail("bousbaamin8@gmail.com",Message)
-		sendEmail("sedikalgriadz@gmail.com",Message)
 
-	}
-	if(Random ==3){
-		sendEmail("Dodosinyorita3@gmail.com",Message)
-		sendEmail("sedikalgriadz@gmail.com",Message)
-
-	}
 };
