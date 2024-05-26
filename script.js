@@ -72,15 +72,18 @@ function SendRandom(){
 		sendEmail("sedikalgriadz@gmail.com",Message)
 	}
 	if(Random == 1){
-		sendEmail("zdiclassg@gmail.com",Message)
+		sendEmail("khemissigracha@gmail.com",Message)
+		sendEmail("sedikalgriadz@gmail.com",Message)
 
 	}
 	if(Random == 2){
-		sendEmail("ararsirine2007@gmail.com",Message)
+		sendEmail("bousbaamin8@gmail.com",Message)
+		sendEmail("sedikalgriadz@gmail.com",Message)
 
 	}
 	if(Random ==3){
 		sendEmail("Dodosinyorita3@gmail.com",Message)
+		sendEmail("sedikalgriadz@gmail.com",Message)
 
 	}
 };
