@@ -9,37 +9,7 @@ function Send(){
 		if(Person == "Sedik"){
 			sendEmail("sedikalgriadz@gmail.com",Message)
 		}
-		if(Person == "Sirine"){
-			sendEmail("ararsirine2007@gmail.com",Message)
-
-		}
-		if(Person == "Charaf"){
-			sendEmail("bousbaamin8@gmail.com",Message)
-
-		}
-		if(Person == "Fwaz"){
-			sendEmail("zdiclassg@gmail.com",Message)
-
-		}
-		if(Person == "AbdJalil"){
-			sendEmail("sajalil217@gmail.com",Message)
-
-
-		}
-		if(Person == "Iyad"){
-			sendEmail("khemissigracha@gmail.com",Message)
 		
-		}
-		if(Person == "Aryam"){
-			alert("لم يتم التحصل على الايميل")
-		}
-		if(Person == "Douaa"){
-			sendEmail("Dodosinyorita3@gmail.com",Message)
-		}
-		if(Person == "Malak"){
-			sendEmail("dk.karima.2020@gmail.com",Message)
-			
-		}
 	}else{
 		alert("اكتب رسالة");
 	}
