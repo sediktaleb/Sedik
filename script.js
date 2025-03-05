@@ -46,7 +46,6 @@ function Send(){
 }
 
 function sendEmail(email,message){
-	alert(message)
 	var parmas = {
         message : message,
         email : email,
