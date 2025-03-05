@@ -19,6 +19,7 @@ body{
 }
 .Report textarea{
     background-color: #fff;
+    text-align: center;
 }
 select{
     padding: 10px;
