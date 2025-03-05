@@ -5,6 +5,7 @@ function Send(){
 	var Person = document.getElementById("Names").value;
 	var Message = document.getElementById("Message").value;
 	document.getElementById("loader").style.display="inline";
+	alert("hello");
 	if(Person == "Sedik"){
 		sendEmail("sedikalgriadz@gmail.com",Message)
 
